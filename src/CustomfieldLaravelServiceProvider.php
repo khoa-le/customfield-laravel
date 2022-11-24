@@ -2,9 +2,9 @@
 
 namespace Khoale\CustomfieldLaravel;
 
+use Khoale\CustomfieldLaravel\Commands\CustomfieldLaravelCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Khoale\CustomfieldLaravel\Commands\CustomfieldLaravelCommand;
 
 class CustomfieldLaravelServiceProvider extends PackageServiceProvider
 {
