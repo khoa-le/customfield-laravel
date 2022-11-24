@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "khoa-le/customfield-laravel",
+    "description": "This is my package customfield-laravel",
     "keywords": [
-        ":vendor_name",
+        "khoa-le",
         "laravel",
-        ":package_slug"
+        "customfield-laravel"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/khoa-le/customfield-laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Khoa Le",
+            "email": "le.ngoc.khoa@oro.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Khoale\\CustomfieldLaravel\\": "src",
+            "Khoale\\CustomfieldLaravel\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Khoale\\CustomfieldLaravel\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Khoale\\CustomfieldLaravel\\CustomfieldLaravelServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "CustomfieldLaravel": "Khoale\\CustomfieldLaravel\\Facades\\CustomfieldLaravel"
             }
         }
     },
